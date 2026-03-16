@@ -1,0 +1,30 @@
+# [Python/FastAPI/Flask 백엔드 관련]
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env              
+
+# [배달 앱 DB 및 설정 관련]
+config/local.json
+*.db
+*.sqlite3
+
+# [Android / Flutter 관련]
+# 안드로이드 스튜디오 설정 및 빌드 결과물
+.gradle/
+build/
+local.properties  
+/out/
+.cxx/
+
+# [VS Code 및 OS 관련]
+.vscode/          
+.DS_Store         
+Thumbs.db         
+
+# [배달 앱 관련 로그]
+logs/
+*.log
